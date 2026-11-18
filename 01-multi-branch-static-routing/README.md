@@ -138,16 +138,15 @@ Several Cisco IOS commands and connectivity tests were used to examine the netwo
 
 ### Verification Commands
 
-| Command| Purpose |
-|---|---|---|
-| "show ip interface brief"| Check interface IP addresses and status |
-| "show ip route"| Examine the routing table |
-| "show running-config"| Review active router configurations |
-| "show interfaces"| Inspect interface status and statistics |
-| "ping"| Test connectivity between devices |
-| "traceroute"| Identify the path packets take between routers |
-| "tracert"| Trace the path from a PC |
-
+| Command | Purpose |
+|---|---|
+| `show ip interface brief` | Check interface IP addresses and status |
+| `show ip route` | Examine the routing table |
+| `show running-config` | Review active router configurations |
+| `show interfaces` | Inspect interface status and statistics |
+| `ping` | Test connectivity between devices |
+| `traceroute` | Identify the path packets take between routers |
+| `tracert` | Trace the path from a PC |
 
 ### Connectivity Tests
 
