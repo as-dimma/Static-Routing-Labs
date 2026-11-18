@@ -110,22 +110,24 @@ Interface names may vary depending on the router model used.
 Static routing was implemented to enable communication between the different branch networks.
 
 The Cisco IOS static route command follows this syntax:
-
 ip route DESTINATION_NETWORK SUBNET_MASK NEXT_HOP_IP
 
 ### R1 – Head Office
 
 ip route 192.168.20.0 255.255.255.0 192.168.40.2
+
 ip route 192.168.30.0 255.255.255.0 192.168.50.1
 
 ### R2 – Lagos Branch
 
-ip route 192.168.10.0 255.255.255.0 192.168.40.1
+ip route 192.168.10.0 255.255.255.0 192.168.40.
+
 ip route 192.168.30.0 255.255.255.0 192.168.60.2
 
 ### R3 – Abuja Branch
 
 ip route 192.168.10.0 255.255.255.0 192.168.50.2
+
 ip route 192.168.20.0 255.255.255.0 192.168.60.1
 
 These routes provide paths to remote LANs through the appropriate next-hop addresses.
