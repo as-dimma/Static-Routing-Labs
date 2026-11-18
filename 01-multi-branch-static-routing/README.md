@@ -138,14 +138,16 @@ Several Cisco IOS commands and connectivity tests were used to examine the netwo
 
 ### Verification Commands
 
-Command| Purpose
-"show ip interface brief"| Check interface IP addresses and status
-"show ip route"| Examine the routing table
-"show running-config"| Review active router configurations
-"show interfaces"| Inspect interface status and statistics
-"ping"| Test connectivity between devices
-"traceroute"| Identify the path packets take between routers
-"tracert"| Trace the path from a PC
+| Command| Purpose |
+|---|---|---|
+| "show ip interface brief"| Check interface IP addresses and status |
+| "show ip route"| Examine the routing table |
+| "show running-config"| Review active router configurations |
+| "show interfaces"| Inspect interface status and statistics |
+| "ping"| Test connectivity between devices |
+| "traceroute"| Identify the path packets take between routers |
+| "tracert"| Trace the path from a PC |
+
 
 ### Connectivity Tests
 
@@ -163,13 +165,15 @@ These tests helped verify communication between devices within different branch 
 
 Six deliberate troubleshooting challenges were performed to develop practical troubleshooting and problem-solving skills.
 
-No.| Troubleshooting Challenge| Objective
-1| Remove a static route from R1| Identify missing routes affecting remote network connectivity
-2| Change R2's WAN IP address| Identify IP addressing inconsistencies between connected routers
-3| Shut down R3's LAN interface| Identify interface availability issues
-4| Configure an incorrect default gateway on PC5| Understand the effect of incorrect gateway configuration
-5| Configure an incorrect subnet mask on R1| Identify subnetting and addressing problems
-6| Remove the return route from R3| Understand the importance of bidirectional routing
+| No. | Troubleshooting Challenge | Objective |
+|---|---|---|
+| 1 | Remove a static route from R1 | Identify missing routes affecting remote network connectivity |
+| 2 | Change R2's WAN IP address | Identify IP addressing inconsistencies between connected routers |
+| 3 | Shut down R3's LAN interface | Identify interface availability issues |
+| 4 | Configure an incorrect default gateway on PC5 | Understand the effect of incorrect gateway configuration |
+| 5 | Configure an incorrect subnet mask on R1 | Identify subnetting and addressing problems |
+| 6 | Remove the return route from R3 | Understand the importance of bidirectional routing |
+
 
 For each challenge, the troubleshooting process involved:
 
@@ -203,10 +207,11 @@ Through this project, I developed practical experience and a better understandin
 
 The following folders contain the supporting project files and documentation.
 
-Folder| Description
-"topology/" (topology/)| Network topology diagram
-"screenshots/" (screenshots/)| Configuration and connectivity screenshots
-"packet-tracer/" (packet-tracer/)| Cisco Packet Tracer project file
+| Folder | Description |
+|---|---|
+| "topology/" (topology/)| Network topology diagram |
+| "screenshots/" (screenshots/)| Configuration and connectivity screenshots |
+| "packet-tracer/" (packet-tracer/)| Cisco Packet Tracer project file |
 
 ## Conclusion
 
