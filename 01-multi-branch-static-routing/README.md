@@ -32,7 +32,7 @@ The objectives of this project were to:
 The network consists of three interconnected office locations arranged in a linear topology.
 
 ### Network devices:
-- 3 Cisco routers (2911 or 1941).
+- 3 Cisco 2911 routers.
 - 3 Cisco 2960 switches.
 - 9 PCs (3 per branch).
 - 3 WAN connections linking the routers.
@@ -175,7 +175,6 @@ Six deliberate troubleshooting challenges were performed to develop practical tr
 
 
 For each challenge, the troubleshooting process involved:
-
 1. Identifying the connectivity problem.
 2. Determining the affected device or network.
 3. Using appropriate diagnostic commands.
